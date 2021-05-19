@@ -9,15 +9,16 @@ from TamilBots.TamilBots import ignore_blacklisted_users
 from TamilBots.sql.chat_sql import add_chat_to_db
 
 start_text = """
-வணக்கம்! [{}](tg://user?id={}),
+Hey! [{}](tg://user?id={}),
 
-நான் SongPlayRoBot! [🎶](https://t.me/tamilsongstatus/392)
+I'm selena Gomez! [🎶](https://telegra.ph/file/49f67b265055fdbe0a7a9.mp4)
 
-I'M Music Bot By @TamilBots 🤖
+I'M Music Bot By @LIZARD_MUSICS 🌈
 
-உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... 🥰🤗🥰
 
-எ.கா :- ```/song Kanave Kanave```
+I will give you songs 🙂❤️... 🥰🤗🥰
+
+Example :- ```/a same old love```
 """
 
 owner_help = """
@@ -36,9 +37,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="⚜ Support Group ⚜", url="http://t.me/TamilSupport"),
+           [[InlineKeyboardButton(text="⚜ Support Group ⚜", url="http://t.me/LIZARD_MUSICS"),
              InlineKeyboardButton(
-                        text="🤗Add Me To Group🥳", url="http://t.me/SongPlayRoBot?startgroup=true"
+                        text="🤗Add Me To Group🥳", url="https://t.me/Selena_Gomez_Tg_bot?startgroup=true"
                     )
                 ]
             ]
